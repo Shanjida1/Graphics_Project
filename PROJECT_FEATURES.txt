@@ -1,0 +1,58 @@
+Bedroom3D Final Standard Project
+
+Core graphics requirements demonstrated:
+1. Viewing transformation / interactive camera
+2. Translation: rug left/right
+3. Rotation: ceiling fan and animated door
+4. Scaling: all modeled furniture and room objects
+5. Point light: ceiling light
+6. Spotlight: wall-picture light
+7. Multiple materials and colors
+8. Interactive keyboard and mouse controls
+9. Organized shader/helper source files
+10. One-click Visual Studio build/run without external paths
+
+11. Window transformation: K opens/closes sliding sash
+12. PC interaction: P switches monitor/CPU ON/OFF
+
+V9 REALISM UPDATE
+- K: realistic hinged casement window open/close animation
+- P: realistic PC fade + boot + desktop + shutdown sequence
+
+
+FINAL interaction upgrade v10
+-----------------------------
+- K: BOTH window leaves open/close together as a real double-casement window.
+- Left leaf is hinged on the far-left frame; right leaf is hinged on the far-right frame.
+- Both leaves swing inward in opposite directions with smooth animation.
+- Handles stay attached to the moving meeting edges; hinges remain on the outside edges.
+- P: PC and CPU tower are one power system. CPU starts first, then monitor boots.
+- CPU case fan spins while powered; CPU power LED and activity LED respond to state.
+- During shutdown, the monitor fades first; the CPU stays on briefly, then its fan/LED wind down.
+
+
+PLAYER / CLASSROOM-STYLE INTERACTION
+- First-person walking controller
+- Mouse-look viewing
+- Shift running
+- Furniture collision
+- Proximity-gated door interaction
+- Proximity-gated double-window interaction
+- Proximity-gated PC + CPU power interaction
+- E key contextual interaction
+- Dynamic window-title interaction prompt
+
+V12 INTERACTION IMPROVEMENT
+- Added realistic 3-gang wall switch board beside the door.
+- Fan, point light and spotlight are controlled from physical switches.
+- Switches are proximity + camera-aim dependent.
+- Press E while aiming at a switch to toggle it.
+- Visual rocker position and LED indicate ON/OFF state.
+
+V13: Independent switch ray targets, balanced reach distances, smooth walk/run, fan coast-down, center interaction reticle.
+
+
+v14 interaction polish:
+- Balanced proximity distances (neither too close nor too far)
+- Unified aim + E interaction for door, window, PC/CPU, rug and wall switches
+- Rug movement converted from global keyboard control to proximity interaction

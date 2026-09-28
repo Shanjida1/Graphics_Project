@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files"><UniqueIdentifier>{F830F890-03CA-4FAE-9A11-1DDBF01D2F0E}</UniqueIdentifier><Extensions>cpp;c;cc;cxx</Extensions></Filter>
+    <Filter Include="Header Files"><UniqueIdentifier>{B9F86168-1CE7-4A49-8C74-44FE4150BBD0}</UniqueIdentifier><Extensions>h;hpp</Extensions></Filter>
+    <Filter Include="Documentation"><UniqueIdentifier>{5BC10F9C-A283-4528-A7B4-B78165407884}</UniqueIdentifier></Filter>
+    <Filter Include="Shader Files"><UniqueIdentifier>{F180A83F-8953-41A3-9B45-AB13D6BF2AA1}</UniqueIdentifier><Extensions>vs;fs;vert;frag;glsl</Extensions></Filter>
+  </ItemGroup>
+  <ItemGroup><ClCompile Include="main.cpp"><Filter>Source Files</Filter></ClCompile></ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basic_camera.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="camera.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="pointLight.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="shader.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="sphere.h"><Filter>Header Files</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup><Text Include="README.txt"><Filter>Documentation</Filter></Text><Text Include="PROJECT_FEATURES.txt"><Filter>Documentation</Filter></Text></ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentShader.fs"><Filter>Shader Files</Filter></None>
+    <None Include="fragmentShaderForGouraudShading.fs"><Filter>Shader Files</Filter></None>
+    <None Include="fragmentShaderForPhongShading.fs"><Filter>Shader Files</Filter></None>
+    <None Include="vertexShader.vs"><Filter>Shader Files</Filter></None>
+    <None Include="vertexShaderForGouraudShading.vs"><Filter>Shader Files</Filter></None>
+    <None Include="vertexShaderForPhongShading.vs"><Filter>Shader Files</Filter></None>
+  </ItemGroup>
+</Project>
